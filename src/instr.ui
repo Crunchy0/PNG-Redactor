@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>instr</class>
+ <widget class="QDialog" name="instr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>765</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>765</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>765</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Краткая инструкция</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;С помощью кнопок &amp;quot;Открыть&amp;quot; и &amp;quot;Сохранить&amp;quot; пункта&lt;br/&gt;меню &amp;quot;Файл&amp;quot; можно выполнить соответствующие&lt;br/&gt;действия с изображением. Данным действиям&lt;br/&gt;соответствуют комбинации клавиш Ctrl+O и Ctrl+S.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>371</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Рисование отрезка.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/segment.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;Данная функция позволяет нарисовать отрезок&lt;br/&gt;произвольных толщины и цвета прямоугольной&lt;br/&gt;формы по координатам его концов.&lt;br/&gt;Комбинация клавиш - Ctrl+Shift+S.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>371</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Обесцвечивание области изображения.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/grayscale.png&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Этот инструмент предназначен для&lt;br/&gt;монохроматизации изображения или его области&lt;br/&gt;прямоугольной формы. Область задаётся&lt;br/&gt;координатами углов.&lt;br/&gt;Комбинация клавиш - Ctrl+G.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>380</y>
+     <width>181</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>20</y>
+     <width>361</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Инвертирование цветов.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/invert.png&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Функция инвертирует цвета в круге, размеры и&lt;br/&gt;положение которого задаёт пользователь.&lt;br/&gt;Есть два способа сделать это: указать&lt;br/&gt;координаты описанного около круга квадрата&lt;br/&gt;либо указать координаты центра и радиус круга.&lt;br/&gt;Комбинация клавиш: Ctrl+I.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>200</y>
+     <width>361</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Кадрирование.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/icons/cut.png&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;С помощью этой функции можно кадрировать&lt;br/&gt;(обрезать) изображение. Часть изображения для&lt;br/&gt;кадрирования прямоугольной формы&lt;br/&gt;определяется координатами углов.&lt;br/&gt;Комбинация клавиш: Ctrl+C.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

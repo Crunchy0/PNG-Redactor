@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>segment.png</file>
+        <file>invert.png</file>
+        <file>grayscale.png</file>
+        <file>cut.png</file>
+    </qresource>
+</RCC>
